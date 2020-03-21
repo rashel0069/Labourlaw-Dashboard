@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Labor Law Dashboard</string>
+    <string name="title_activity_member__list">Member_List</string>
+    <string name="pending_req">Pending</string>
+    <string name="deny_req">Deny</string>
+</resources>

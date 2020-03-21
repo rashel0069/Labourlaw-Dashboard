@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_pending">
+
+    <fragment
+        android:id="@+id/navigation_pending"
+        android:name="com.example.laborlawdashboard.ui.pending.PendingFragment"
+        android:label="@string/pending_req"
+        tools:layout="@layout/fragment_pending" />
+
+    <fragment
+        android:id="@+id/navigation_deny"
+        android:name="com.example.laborlawdashboard.ui.deny.DenyFragment"
+        android:label="@string/deny_req"
+        tools:layout="@layout/fragment_deny" />
+
+</navigation>
